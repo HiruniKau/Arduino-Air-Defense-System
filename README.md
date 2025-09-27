@@ -1,4 +1,4 @@
-# Arduino Air Defense System
+# ✈ Arduino Air Defense System
 
 ![Arduino Air Defense System](./assets/Arduino_Air_Defense.png)
 ---
@@ -69,16 +69,16 @@ https://app.cirkitdesigner.com/
 2. Ultrasonic Sensor measures distance of objects in the sweep path.
 3. PIR Sensor checks for motion presence.
 4. If both motion is detected and object is within 20 cm:
-        Red LED + Buzzer → Threat Alert
-        Gun Servo → rotates toward object
+   - Red LED + Buzzer → Threat Alert
+   - Gun Servo → rotates toward object
 5. Otherwise:
-        Blue LED ON → Safe state
-        Gun Servo → reset to neutral position
+   - Blue LED ON → Safe state
+   - Gun Servo → reset to neutral position
 6. Data is sent to Processing IDE for live radar visualization.
 
 ---
 
 ## 📊 System Architecture
-Input: PIR sensor + Ultrasonic sensor
-Processing: Arduino Uno (Edge computing with decision-making logic)
-Output: Servo motors, LEDs, Buzzer, Processing Visualization
+- Input: PIR sensor + Ultrasonic sensor
+- Processing: Arduino Uno (Edge computing with decision-making logic)
+- Output: Servo motors, LEDs, Buzzer, Processing Visualization
